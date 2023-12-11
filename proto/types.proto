@@ -1,0 +1,16 @@
+syntax = "proto3"
+
+option go_package ="github.com/tabrizihamid84/blocker/proto"
+
+message Block {
+	Header header = 1;
+	repeated Transaction transactions = 2;
+}
+
+message Header {
+
+}
+
+message Transaction {
+
+}
